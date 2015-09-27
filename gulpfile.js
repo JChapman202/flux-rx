@@ -44,7 +44,7 @@ gulp.task('docs', function() {
 });
 
 gulp.task('watch', function() {
-	gulp.watch(['index.js', 'lib/**/*.js', 'test/**/*.js'], ['lint', 'test', 'build']);
+	gulp.watch(['index.js', 'src/**/*.js', 'test/**/*.js'], ['lint', 'test', 'build']);
 });
 
 gulp.task('default', ['watch', 'lint', 'test', 'build']);
