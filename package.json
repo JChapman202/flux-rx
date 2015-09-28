@@ -1,6 +1,6 @@
 {
   "name": "flux-rx",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Flux components which can be used to implement Flux within a React.js application.  Combines Rx.JS and Immutable.JS for Dispatcher/Store implementations.",
   "main": "dist/index.js",
   "directories": {
@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "babel": "^5.8.23",
+    "babel-runtime": "^5.8.25",
     "chai": "^3.3.0",
     "chance": "^0.7.7",
     "gulp": "^3.9.0",
