@@ -29,7 +29,7 @@ function shallowEquals(objA, objB) {
 
 	if (!returnVal) {
 		var propsEqual = true;
-		if (Object.Keys(objA).length === Object.Keys(objB).length) {
+		if (Object.keys(objA).length === Object.keys(objB).length) {
 			for (var key in objA) {
 				propsEqual = propsEqual && objA[key] === objB[key];
 			}
