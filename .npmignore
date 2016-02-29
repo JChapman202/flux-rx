@@ -3,6 +3,4 @@ node_modules/
 src/
 test/
 .eslintrc
-.gitignore
 gulpfile.js
-index.js
